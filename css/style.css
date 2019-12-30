@@ -9255,3 +9255,7 @@ li.fancybox-thumbs-loading {
     animation: unset !important;
   }
 }
+
+.possibilities__action_benefits {
+  text-align: right;
+}
