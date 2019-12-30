@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script type="text/javascript" src="https://www.moneymetals.com/api/charts/embed.js"></script>
+    <script defer type="text/javascript">
+		$(document).ready(function()
+		{
+			$("#ilb-display-chart" ).MoneyMetals({default_metal:'gold',chart_width: 900, body_width: 900, body_height: 390, chart_height: 390});
+		});
+    </script>
+    <style>
+        .panel-heading, #days-buttons{
+            display: none!important;
+        }
+    </style>
+
+</head>
+<body>
+<div id="ilb-display-chart" >
+    <a href="https://www.moneymetals.com/buy/gold"></a>
+</div>
+</body>
+</html>
+
+<!-- chart_width: 580,body_width: 680 -->

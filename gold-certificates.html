@@ -7,6 +7,15 @@
   <link rel="icon" href="./img/fav.png" type="image/png">
   <title>Gold Certificates</title>
   <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  <script type="text/javascript" src="https://www.moneymetals.com/api/spot_prices/embed.js"></script>
+  <script defer type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#mmx-spot-prices").MMXSpotPrices();
+  });
+  </script>
 </head>
 
 <body>
@@ -79,10 +88,8 @@
         <p>If you decide you really want to own it, gold presents another quandary: How should you own it? Here too experts don’t all agree. The purest way to own gold is via bars or coins, but dealers charge a premium, the price isn’t always tied to gold’s market value, and there’s also the issue of storage. If you pay a third party to hold the coins for you, there are added fees. If you store your gold in a safe at home, you face additional risks.</p>
       </div>
     </div>
-    <p>
-      <!-- Gold Price Script - GOLDPRICEOZ.COM -->
-      <div style="width:448px; margin: auto; border:1px solid #FFFFFF;height:auto;background-color:#FCFCFC;font-family:Arial,sans-serif;"><div style="background-color:#3BE635;width:100%; margin:0 auto;font-weight:bold;text-align:center; padding-top:0px;"><a href="https://www.goldpriceoz.com/" style="font-size:34px; color:#FFFFFF;text-decoration:none;" rel="nofollow">Gold Price</a></div><script type="text/javascript" src="https://www.goldpriceoz.com/goldwidget.php?m=000000&g=FCFCFC&c=732908&i=FFFFFF&l=FFFFFF&o=FFFFFF&w=450"></script></div>
-      <!-- End of Gold Price Script -->
+    <p class="col__gold">
+      <iframe src="gold-chart.html" scrollable="false"></iframe>
     </p>
     <p>Many experts recommend a more modern approach: Buy an exchange-traded fund that is backed by actual gold.</p>
     <p>These solutions create a simple, secure investment tool for secondary circulation being an accurate measure of the value expressed in a unit weight and fulfilling the classical role of gold. We have prepared a co-investment project for the simultaneous start of gold production, development of the new gold deposits, it’s safekeeping and receiving the real income daily.</p>
@@ -191,6 +198,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script> -->
 <script src="js/common.js"></script>
+<script type="text/javascript" src="js/embed.js"></script>
 
 </body>
 </html>

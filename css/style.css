@@ -9259,3 +9259,15 @@ li.fancybox-thumbs-loading {
 .possibilities__action_benefits {
   text-align: right;
 }
+
+.col__gold {
+  margin: auto;
+  overflow: hidden;
+  max-width: 920px;
+}
+
+.col__gold iframe {
+  width: 100%;
+  height: 410px;
+  border: none;
+}
